@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NewsNut/static/css/main.31d6cfe0.css",
+    "main.js": "/NewsNut/static/js/main.08829efd.js",
+    "static/js/592.d13af28d.chunk.js": "/NewsNut/static/js/592.d13af28d.chunk.js",
+    "static/media/loading.gif": "/NewsNut/static/media/loading.73cfc5f467de4a03b285.gif",
+    "index.html": "/NewsNut/index.html",
+    "main.08829efd.js.map": "/NewsNut/static/js/main.08829efd.js.map",
+    "592.d13af28d.chunk.js.map": "/NewsNut/static/js/592.d13af28d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.08829efd.js"
+  ]
+}
