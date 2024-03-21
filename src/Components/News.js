@@ -37,6 +37,7 @@ const News = (props) => {
     useEffect(() => {
         document.title = `${capitalizeFirstCharacter(props.category)} - NewsNut`;
         updateNews();
+        // eslint-disable-next-line
     }, [])
 
     // const HandlePrevClick = async () => {
@@ -60,6 +61,7 @@ const News = (props) => {
         setArticles(articles.concat(parse_Data.articles));
         setTotalResults(parse_Data.totalResults);
     };
+
 
 
     return (
@@ -91,7 +93,6 @@ const News = (props) => {
                 </div>
 
             </InfiniteScroll>
-
             {/* <div className="container d-flex justify-content-between">
                         <button disabled={page <= 1} type="button" className="btn btn-dark" onClick={HandlePrevClick}>&larr; Previous</button>
                         <button disabled={(page + 1 > Math.ceil(totalResults / props.pageSize))} type="button" className="btn btn-dark" onClick={HandleNextClick}>Next &rarr;</button>
